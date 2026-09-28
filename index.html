@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>人生实验室 · 帮想法很多的人，把天赋变成资产</title>
+<meta name="description" content="用 MBTI 认识自己，用 Human 3.0 升级自己，用易经智慧驾驭变化，用 AI 加速一切。公开实验：90天做出第一个有人用的产品。">
+<style>
+  :root { --ink:#1a1a1a; --sub:#5b5b5b; --line:#e8e4dc; --accent:#8a5a2b; --accent2:#2f5d50; --bg:#faf8f4; --card:#fff; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",serif; color:var(--ink); background:var(--bg); line-height:1.8; }
+  .wrap { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+
+  /* Hero */
+  header { margin-bottom:72px; }
+  .tag { display:inline-block; font-size:13px; color:var(--accent); border:1px solid var(--accent); border-radius:999px; padding:2px 14px; margin-bottom:24px; }
+  h1 { font-size:34px; line-height:1.45; margin-bottom:20px; }
+  .sub { color:var(--sub); font-size:16.5px; max-width:600px; }
+  .sub strong { color:var(--ink); }
+
+  /* Framework trio */
+  .frameworks { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:40px 0 0; }
+  .fw { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 16px; }
+  .fw .k { font-size:12px; letter-spacing:2px; color:#b0a58f; margin-bottom:6px; }
+  .fw h3 { font-size:16px; margin-bottom:6px; }
+  .fw p { font-size:13.5px; color:var(--sub); line-height:1.6; }
+  @media (max-width:640px){ .frameworks{ grid-template-columns:1fr; } }
+
+  section { margin-bottom:56px; }
+  h2 { font-size:21px; margin-bottom:6px; }
+  .h2sub { font-size:13.5px; color:#b0a58f; margin-bottom:18px; }
+
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:22px; margin-bottom:12px; }
+  .card h3 { font-size:16.5px; margin-bottom:8px; }
+  .card p { font-size:14.5px; color:var(--sub); }
+  .card .meta { font-size:12.5px; color:#b0a58f; margin-top:10px; }
+  .empty { font-size:14px; color:#b8b0a0; font-style:italic; }
+
+  /* Manifesto */
+  .manifesto { border-left:3px solid var(--accent); padding:6px 0 6px 20px; margin:8px 0 0; }
+  .manifesto p { font-size:15.5px; margin-bottom:10px; }
+  .manifesto .yi { color:var(--accent); font-family:Georgia,"Songti SC",serif; }
+
+  a { color:var(--accent2); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+
+  .join p { color:var(--sub); font-size:15px; margin-bottom:14px; }
+  input[type=text] { width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:8px; font-size:15px; margin-bottom:10px; background:#fff; }
+  button { background:var(--accent); color:#fff; border:none; border-radius:8px; padding:12px 28px; font-size:15px; cursor:pointer; }
+  button:hover { opacity:.92; }
+  #ok { display:none; margin-top:12px; font-size:14px; color:var(--accent2); }
+
+  footer { margin-top:88px; font-size:13px; color:#b8b0a0; text-align:center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="tag">人生实验室 · 公开建造中</span>
+    <h1>帮"想法很多的人"，<br>把天赋变成资产。</h1>
+    <p class="sub">如果你是那种兴趣广泛、点子不断、却总在"研究新方向"里原地打转的人——<strong>这里没有人生答案，只有一套正在公开验证的方法</strong>：用 MBTI 认识自己，用 Human 3.0 升级自己，用《易经》的智慧驾驭变化，用 AI 加速这一切。我自己就是第一个实验对象。</p>
+
+    <div class="frameworks">
+      <div class="fw">
+        <div class="k">入口 · 认识自己</div>
+        <h3>MBTI</h3>
+        <p>探索型人格（NP）的天赋与陷阱：想法多 ≠ 资产多。先看清自己的出厂设置。</p>
+      </div>
+      <div class="fw">
+        <div class="k">系统 · 升级自己</div>
+        <h3>Human 3.0</h3>
+        <p>心智 / 身体 / 精神 / 事业四象限分层进化——把人当作可以持续迭代的系统。</p>
+      </div>
+      <div class="fw">
+        <div class="k">内核 · 驾驭变化</div>
+        <h3>易经</h3>
+        <p>穷则变，变则通。在"变"（探索）与"不变"（长期问题）之间建立反馈。</p>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>我在实践的主张</h2>
+    <div class="h2sub">不是玄学，不是测评游戏，是一套操作系统的组装说明</div>
+    <div class="manifesto">
+      <p><span class="yi">「天行健，君子以自强不息。」</span>——身体与心智，是可以训练的基础设施，不是背景变量。</p>
+      <p><span class="yi">「穷则变，变则通，通则久。」</span>——允许项目死、产品死、模式死，但长期问题不轻易死。探索可以有，资产不清零。</p>
+      <p><span class="yi">「一阴一阳之谓道。」</span>——阴是输入（学习、研究、思考），阳是输出（产品、用户、收入）。只阴不阳，一事无成；阴阳平衡，复利发生。</p>
+      <p>所以意义不是想出来的：<strong>做一个东西 → 服务真实的人 → 获得反馈 → 持续十年 → 回头看。</strong></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>公开实验</h2>
+    <div class="h2sub">不展示结果，展示过程——包括失败的那部分</div>
+    <div class="card">
+      <h3>实验 001：探索者能不能学会复利？</h3>
+      <p>一个协调过数十家公司、做成过从0到1项目的人，花了很多年想清楚一件事：自己的瓶颈不是能力，而是从未把天赋绑定到一个持续产生反馈的个人资产上。从 2026.09.28 起，每天创造 2 小时，90 天做出第一个有真实用户的产品，年底前收到第一笔收入。</p>
+      <p class="meta">状态：进行中 · 每日记录 · 欢迎围观和监督</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>走过的路</h2>
+    <div class="h2sub">Projects · 在系统内证明过的能力</div>
+    <div class="card">
+      <h3>从 0 到 1：一个目标年收入 1 亿元的新产品线</h3>
+      <p>协调数十家公司资源，从零搭建产品体系。负责复杂系统建模、跨方协调与落地。这段经历证明了一件事：我有从"无"造出"有"的能力——缺的只是为自己造一次。</p>
+      <p class="meta">角色：项目发起人 / 系统设计者</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>做出来的东西</h2>
+    <div class="h2sub">Products · 每一件都是真实存在的，不是想法</div>
+    <p class="empty">第一件产品正在路上——预计 2026 年 10 月底发布。这个栏目宁缺毋滥。</p>
+  </section>
+
+  <section>
+    <h2>正在思考</h2>
+    <div class="h2sub">Ideas · 思考是探索配额的产物，不是拖延的借口</div>
+    <div class="card">
+      <h3>为什么"想法很多的人"大多穷得很稳定？</h3>
+      <p>因为大脑把"理解一个可能性"当成完成，现实却分文未动。解法不是消灭探索，而是给探索装上刹车和方向盘。</p>
+    </div>
+    <div class="card">
+      <h3>《易经》给探索者的真正启示</h3>
+      <p>不是算命，是系统思维：六十四卦讲的是状态与变化。人生不是选一条路走到底，而是在变化中守住那个不变的"一"。</p>
+    </div>
+  </section>
+
+  <section class="join">
+    <h2>加入实验</h2>
+    <div class="h2sub">如果你是同类，或者你的问题值得我动手解决</div>
+    <p>留下称呼和联系方式（微信/邮箱），你会收到：实验进展的原始记录、我用过的工具与方法、以及产品的第一批内测邀请。</p>
+    <form onsubmit="event.preventDefault(); document.getElementById('ok').style.display='block'; this.querySelector('input').value='';">
+      <input type="text" placeholder="怎么称呼你 + 联系方式" required>
+      <button type="submit">加入 / 告诉我你的问题</button>
+    </form>
+    <p id="ok">已收到！（V0.2 先本地记录，接入后端后真正保存）</p>
+  </section>
+
+  <footer>
+    建立于 2026.09.28 · 天行健，每天多一点东西，年底见分晓
+  </footer>
+
+</div>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"4655f3c58dd6497fb7ddb85b68480db7","spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
